@@ -36,4 +36,9 @@ public class ProductService {
 		return prod;
 	}
 
+	public List<String> getAllPrice() {
+
+		return repo.groupByPrice();
+	}
+
 }

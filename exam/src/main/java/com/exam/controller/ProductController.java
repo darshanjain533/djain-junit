@@ -28,6 +28,11 @@ public class ProductController {
 		return service.getServPriceDetails(price);
 	}
 	
+	@GetMapping("/getallprice")
+	public List<String> getAllPrice() {
+		return service.getAllPrice();
+	}
+	
 	@GetMapping("/getall")
 	public List<Product> getAlldetails(@RequestParam String price) {
 		return service.getServDetails(price);
