@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: darjain
+Build-Jdk: 17.0.3
+Implementation-Title: testing-junit5-mockito
+Implementation-Version: 1.0
+Implementation-Vendor-Id: com.mkyong.spring
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/testing-junit5-mockito
+Created-By: Maven Integration for Eclipse
+
